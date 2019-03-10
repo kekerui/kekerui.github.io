@@ -84,17 +84,17 @@
 <meta name="description" content="前言树莓派是个用来学习编程的优秀设备。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="树莓派教程系列之安装树莓派系统Raspbian到SD卡">
-<meta property="og:url" content="http://yoursite.com/2019/03/11/Raspberrypi/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/03/10/Raspberrypi/index.html">
 <meta property="og:site_name" content="Kerui">
 <meta property="og:description" content="前言树莓派是个用来学习编程的优秀设备。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/03/11/Raspberrypi/raspberrypi.jpg">
-<meta property="og:image" content="http://yoursite.com/2019/03/11/Raspberrypi/win32DiskImager.png">
-<meta property="og:updated_time" content="2019-03-10T23:21:30.150Z">
+<meta property="og:image" content="http://yoursite.com/2019/03/10/Raspberrypi/raspberrypi.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/03/10/Raspberrypi/win32DiskImager.png">
+<meta property="og:updated_time" content="2019-03-10T23:28:56.236Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派教程系列之安装树莓派系统Raspbian到SD卡">
 <meta name="twitter:description" content="前言树莓派是个用来学习编程的优秀设备。">
-<meta name="twitter:image" content="http://yoursite.com/2019/03/11/Raspberrypi/raspberrypi.jpg">
+<meta name="twitter:image" content="http://yoursite.com/2019/03/10/Raspberrypi/raspberrypi.jpg">
 
 
 
@@ -124,7 +124,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/11/Raspberrypi/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/10/Raspberrypi/">
 
 
 
@@ -267,7 +267,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/11/Raspberrypi/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/10/Raspberrypi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="柯锐">
@@ -296,8 +296,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-11T23:10:14+08:00">
-                2019-03-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-10T23:30:14+08:00">
+                2019-03-10
               </time>
             
 
@@ -315,8 +315,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/03/11/Raspberrypi/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/03/11/Raspberrypi/" itemprop="commentsCount"></span>
+                <a href="/2019/03/10/Raspberrypi/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/03/10/Raspberrypi/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -344,7 +344,7 @@
       
 
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>树莓派是个用来学习编程的优秀设备。<br><img src="/2019/03/11/Raspberrypi/raspberrypi.jpg" title="安装过程"><br><a id="more"></a></p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>树莓派是个用来学习编程的优秀设备。<br><img src="/2019/03/10/Raspberrypi/raspberrypi.jpg" title="安装过程"><br><a id="more"></a></p>
 <ul>
 <li>第一，它很便宜。价格差不多只有低端计算机的十分之一，作为你的主计算机的一个附件它非常便宜。由于程序员往往需要调试开发设备，而调试就有可能破坏某些东西，这就使树莓派显得很有用。通常来说，调试并不会破坏到设备本身，但是可能需要重装系统，这就有可能损失数据并且在几个小时内你都无法使用计算机。如果你有个树莓派，用它来编程，这些就不是问题。</li>
 <li>第二，树莓派是个裸设备。它没有藏在盒子里或者在一个完整的系统中。这意味着你可以自己决定将其做成一个什么系统。你可以将其放到盒子里，也可以就让它裸着运行。你也可以使用GPIO，这在其他机器上是无法做到的。大多数计算机的用途都已经预先设计好了（如用来网上冲浪或者玩游戏的平板电脑，用来看电影或玩游戏的游戏终端，用来工作或玩游戏的笔记本电脑等）。而只要一点技术手段树莓派就可以做任何事情。</li>
@@ -377,7 +377,7 @@
 <li>将SD使用卡托或者读卡器后，连上电脑。</li>
 <li>解压并运行win32diskimager工具。</li>
 <li>在软件中选择系统镜像（img文件），“Device”下选择SD的盘符，然后选择“Write”，期间出现对话框选择是。</li>
-<li>安装过程可能有些慢，根据你SD卡的速度而定的，等到出现对话框write successful就说明成功了。安装完之后，会跳出一个窗口，提示是否格式化，选择否。<img src="/2019/03/11/Raspberrypi/win32DiskImager.png" title="安装过程">
+<li>安装过程可能有些慢，根据你SD卡的速度而定的，等到出现对话框write successful就说明成功了。安装完之后，会跳出一个窗口，提示是否格式化，选择否。<img src="/2019/03/10/Raspberrypi/win32DiskImager.png" title="安装过程">
 </li>
 </ol>
 
