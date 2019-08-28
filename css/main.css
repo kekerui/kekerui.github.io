@@ -1870,7 +1870,7 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
-  border-radius: 30%;
+  border-radius: 40%;
   transition: 2s all;
 }
 .site-author-image:hover {
@@ -1960,7 +1960,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f493f5;
+  background: #c28ea4;
 }
 .link-of-author-item {
   text-align: center;
