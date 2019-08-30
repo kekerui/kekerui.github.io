@@ -70,7 +70,7 @@
             
             
             id="home">
-            <i class='fas fa-rss fa-fw'></i>&nbsp;博文
+            <i class='fas fa-book fa-fw'></i>&nbsp;博客
           </a>
         </li>
       
@@ -79,7 +79,7 @@
             
             
             id="weibo.comu5902658784">
-            <i class=' fa-fw'></i>&nbsp;微博
+            <i class='fab fa-weibo fa-fw'></i>&nbsp;微博
           </a>
         </li>
       
@@ -88,7 +88,7 @@
             
             
             id="https:www.zhihu.compeopled1d71bf5a601a9e85ffe6f54938aafe5">
-            <i class=' fa-fw'></i>&nbsp;知乎
+            <i class='fab fa-zhihu fa-fw'></i>&nbsp;知乎
           </a>
         </li>
       
@@ -99,7 +99,7 @@
             
             
             id="https:github.comkekerui">
-            <i class='fas fa-github fa-fw'></i>&nbsp;Github
+            <i class='fab fa-github fa-fw'></i>&nbsp;Github
           </a>
         </li>
       
@@ -120,9 +120,9 @@
 
       
     </cover>
-    <header class="l_header pure">
+    <header class="l_header material">
   <div id="loading-bar-wrapper">
-    <div id="loading-bar" class="pure"></div>
+    <div id="loading-bar" class="material"></div>
   </div>
 
 	<div class='wrapper'>
@@ -395,7 +395,7 @@
           
           
             <section class='widget author'>
-  <div class='content pure'>
+  <div class='content material'>
     
       <div class='avatar'>
         <img class='avatar' src='/images/kerui.jpg'/>
@@ -406,7 +406,7 @@
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
+            <a href="/"
               class="social fas fa-rss flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -458,12 +458,12 @@
           
             <section class='widget grid'>
   
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;站内导航</div>
   
 </header>
 
-  <div class='content pure'>
+  <div class='content material'>
     <ul class="grid navgation">
       
         <li><a class="flat-box" title="/" href="/"
@@ -525,7 +525,7 @@
             
   <section class='widget category'>
     
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文章分类</div>
   
     <a class="rightBtn"
@@ -539,7 +539,7 @@
   
 </header>
 
-    <div class='content pure'>
+    <div class='content material'>
       <ul class="entry">
         
           <li><a class="flat-box" title="/categories/个人信息/" href="/categories/个人信息/"><div class='name'>个人信息</div><div class='badge'>(1)</div></a></li>
@@ -558,7 +558,7 @@
             
   <section class='widget tagcloud'>
     
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
   
     <a class="rightBtn"
@@ -572,7 +572,7 @@
   
 </header>
 
-    <div class='content pure'>
+    <div class='content material'>
       <a href="/tags/分享/" style="font-size: 14px; color: #999">分享</a> <a href="/tags/导航/" style="font-size: 14px; color: #999">导航</a>
     </div>
   </section>
@@ -589,7 +589,7 @@
 
   <section class='widget music'>
     
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-compact-disc fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;最近在听</div>
   
     <a class="rightBtn"
@@ -605,7 +605,7 @@
   
 </header>
 
-    <div class='content pure'>
+    <div class='content material'>
       
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
   <div class="aplayer"
@@ -640,7 +640,7 @@
     <div class="social-wrapper">
       
         
-          <a href="/atom.xml"
+          <a href="/"
             class="social fas fa-rss flat-btn"
             target="_blank"
             rel="external nofollow noopener noreferrer">
@@ -754,14 +754,14 @@
       $(function(){
         if ('.cover') {
           $('.cover').backstretch(
-          ["https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg"],
+          ["/images/fly.jpg"],
           {
             duration: "6000",
             fade: "2500"
           });
         } else {
           $.backstretch(
-          ["https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg"],
+          ["/images/fly.jpg"],
           {
             duration: "6000",
             fade: "2500"
@@ -899,5 +899,9 @@
 
 
   <script>setLoadingBarProgress(100);</script>
+  <!--动态线条背景-->
+  <script type="text/javascript"
+  color="100,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+  </script>
 </body>
 </html>
